@@ -1,24 +1,26 @@
 # 가위 바위 보 게임
 - 프로젝트 구조 제안
-    
-    rps-game/
-    ├── src/
-    │   ├── assets/
-    │   │   ├── question.png          # 물음표 이미지
-    │   │   ├── rock.png                 # 바위 이미지
-    │   │   ├── paper.png               # 보 이미지
-    │   │   └── scissors.png            # 가위 이미지
-    │   ├── components/
-    │   │   ├── Card.js                     # 플레이어/컴퓨터 카드 컴포넌트
-    │   │   └── Button.js                  # 선택 버튼 컴포넌트
-    │   ├── css/
-    │   │   ├── App.module.css       # App 컴포넌트 스타일
-    │   │   ├── Card.module.css      # Card 컴포넌트 스타일
-    │   │   └── Button.module.css   # Button 컴포넌트 스타일
-    │   ├── App.jsx                           # 메인 앱 컴포넌트
-    │   ├── main.jsx                          # React 진입점
-    │   └── index.css                        # 글로벌 스타일
-    └── package.json                       # 프로젝트 설정 및 의존성
+
+```
+rps-game/
+├── src/
+│   ├── assets/
+│   │   ├── question.png          # 물음표 이미지
+│   │   ├── rock.png              # 바위 이미지
+│   │   ├── paper.png             # 보 이미지
+│   │   └── scissors.png          # 가위 이미지
+│   ├── components/
+│   │   ├── Card.jsx              # 플레이어/컴퓨터 카드 컴포넌트
+│   │   └── Button.jsx            # 선택 버튼 컴포넌트
+│   ├── css/
+│   │   ├── App.module.css        # App 컴포넌트 스타일
+│   │   ├── Card.module.css       # Card 컴포넌트 스타일
+│   │   └── Button.module.css     # Button 컴포넌트 스타일
+│   ├── App.jsx                   # 메인 앱 컴포넌트
+│   ├── main.jsx                  # React 진입점
+│   └── index.css                 # 글로벌 스타일
+└── package.json                  # 프로젝트 설정 및 의존성
+```
 
 ## 개발 세부 순서
 
